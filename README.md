@@ -43,29 +43,29 @@ How-to's
 
 | command    |      effect      |
 |----------|--------------|
-| j | move cursor down |
-| k | move cursor up |
-| v | select the current item (defined by where the cursor is), and enter **visual mode**   |
-| a | enter **insert mode** |
-| D | delete the current item |
-| w | save the current items into items.json |
-| <ctrl-c> | exit without saving |
+| `j` | move cursor down |
+| `k` | move cursor up |
+| `v` | select the current item (defined by where the cursor is), and enter **visual mode**   |
+| `a` | enter **insert mode** |
+| `D` | delete the current item |
+| `w` | save the current items into items.json |
+| `<ctrl-c>` | exit without saving |
 
 ### Insert mode
 
 | command    |      effect      |
 |----------|--------------|
-| <ctrl-u> | delete everything and start again |
-| <esc> | escape back to normal mode, without adding a new item |
-| <enter> when inserting text | progress from into inserting days |
-| <enter> when inserting days | go back to normal mode, but with the newly added item |
-| <ctrl-c> | exit without saving |
+| `<ctrl-u>` | delete everything and start again |
+| `<esc>` | escape back to normal mode, without adding a new item |
+| `<enter>` when inserting text | progress from into inserting days |
+| `<enter>` when inserting days | go back to normal mode, but with the newly added item |
+| `<ctrl-c>` | exit without saving |
 
 ### Visual mode
 
 | command    |      effect      |
 |----------|--------------|
-| v | go back to normal mode |
-| j | move the current item one line downward |
-| k | move the current item one line upward |
-| <ctrl-c> | exit without saving |
+| `v` | go back to normal mode |
+| `j` | move the current item one line downward |
+| `k` | move the current item one line upward |
+| `<ctrl-c>` | exit without saving |
