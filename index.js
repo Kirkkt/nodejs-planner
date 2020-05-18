@@ -183,7 +183,7 @@ const captureKeyPress = (items) => {
       }
       renderContent(items, highlightIndex, mode);
     } else if (str === 'w') {
-      fs.writeFile(FILE_NAME, JSON.stringify(items), 'utf8', function (err) {
+      fs.writeFile(FILE_NAME, JSON.stringify(items, null, 2), 'utf8', function (err) {
         if (err) {
           console.log(err)
         }
